@@ -1,1 +1,1 @@
-# Azure-Disk-Encryption-for-Windows-VMs-and Microsoft Defender
+# Azure-Disk-Encryption-for-Windows-VMs-and Windows Defender
