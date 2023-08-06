@@ -1,6 +1,6 @@
 # Azure-Disk-Encryption-for-Windows-VMs-and Windows Defender
 
-# What is Azure Disk Encryption?
+# What is Azure Disk Encryption? #236
 - Azure Disk Encryption for Windows VMs helps safeguard companies data to meet your organization security and compliance requirements.
 - How does it work? Azure Disk Encryption uses Bitlocker feature of Windows to encrypt the OS and Data Disks of Azure Virtual Machines, and it is integrated with Azure Key Vault, which helps in controling and managing the disk encryption keys and secrets.
 
@@ -27,3 +27,7 @@
 # Azure Disk Encryption for Linux VMs
 - Azure Disk Encryption uses the DM-Crypt feature of Linux to provide volume encryption for the OS and data disks of Azure virtual machines (VMs) and is integrated with Azure Key Vault to help you control and manage the disk encryption keys and secrets.
 
+# How to Encrypt disks for a Azure VM?
+- You need an Azure Key Vault.
+- Generate a new encryption key
+- From the Virtual Machine > Disk > Settings > Enable disk encryption
