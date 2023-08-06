@@ -29,5 +29,6 @@
 
 # How to Encrypt disks for a Azure VM?
 - You need an Azure Key Vault.
+- Within the Key Vault, you must enable "Azure Disk Encryption for volume encryption" in the Access Policies
 - Generate a new encryption key
 - From the Virtual Machine > Disk > Settings > Enable disk encryption
